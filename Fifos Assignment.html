@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<!-- saved from url=(0081)https://cs-web.bu.edu/fac/richwest/cs350_spring_2021/assignments/fifos/fifos.html -->
+<html><div id="translate-button" style="background-color: white;"><img src="data:image/png;base64,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"></div><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="GENERATOR" content="Mozilla/4.77 [en] (X11; U; Linux
+      2.4.9-6custom i686) [Netscape]">
+    <meta name="Author" content="Rich West">
+    <title></title>
+  </head>
+  <body vlink="#55188a" text="#000000" link="#0000ef" bgcolor="#ffffff" alink="#ff0000">
+    <h1>From MEMOS to FIFOS<br>
+    </h1>
+    By Rich West, Boston University. <br>
+    <h2>Overview<br>
+    </h2>
+    <p>In this assignment you are required to take the protected mode
+      code you developed from MemOS (notably <font face="Courier New,
+        Courier, monospace">memos-2</font>) and develop a new version of
+      the system, which we will call FIFOS (the First-In-First-Out
+      System). FIFOS extends <font face="Courier New, Courier,
+        monospace">memos-2</font> with capabilities to schedule threads
+      in a preemptive FIFO (or FCFS) order. That is, any newly created
+      or awoken threads are added to the back of a ready queue and when
+      the scheduler is invoked, it picks the thread at the front of the
+      ready queue for dispatching. This assignment requires you to build
+      a standalone system rather than a solution on top of an existing
+      system, so you cannot use pre-existing thread libraries such as
+      Pthreads or a runtime environment such as a Java Virtual Machine
+      (although you can implement your own versions of Pthreads or a JVM
+      as part of your system if you want to give yourself a challenge!).
+      <br>
+    </p>
+    <h2>Details<br>
+    </h2>
+    <p>Using code from <font face="Courier New, Courier, monospace">memos-2</font>
+      that you developed for your primer assignment, you should start by
+      adding functionality to support thread scheduling. For those who
+      did not complete <font face="Courier New, Courier, monospace">memos-2</font>
+      we will provide template source code. You should extend the code
+      to allow threads to work within the default protection domain that
+      is created when GRUB passes control to your system. For
+      simplicity, you can assume a <i>pool</i> of N threads is created
+      statically (where N is specified in a header or some boot
+      parameter of your choosing. You can assume the thread pool exists
+      at boot time, and no further threads need to be created
+      dynamically.&nbsp; <br>
+      <br>
+      For each thread, you should define a <i>thread control block</i>
+      (TCB), which maintains appropriate state information. Example
+      state information includes copies of machine register values such
+      as the stack and instruction pointers (possibly others too), and a
+      <i>thread ID</i> (TID). Each TID should be a unique integer value
+      in the range [1,N] where N is the number of threads in your pool.
+      The pool itself might simply be an array of pointers to TCBs, with
+      some flag identifying whether or not a thread in the pool has been
+      assigned work. <br>
+      <br>
+      Initially, threads in your thread pool are all idle and they all
+      have the same priority. You can then assign threads specific work
+      by calling a function <font face="Courier New, Courier,
+        monospace">thread_create()</font>. The function should look
+      something like:<br>
+      <br>
+      <font face="Courier New, Courier, monospace">int thread_create
+        (void *stack, void *func);</font><br>
+      <br>
+      In the above, the thread creation function binds a thread in the
+      pool to specific stack and function addresses. It then returns the
+      TID of the thread associated with this call. For simplicity you
+      can assume threads are taken from the pool in order from lowest to
+      highest TID until all threads have been assigned work. Each thread
+      assigned work is then marked as <i>busy</i> using a flag in the
+      corresponding TCB. If all threads are busy, you cannot create any
+      more threads and should deal with this case accordingly. If a
+      thread returns from the function it is associated with, you can
+      place it back into an <i>idle</i> state, so that it can be
+      assigned new functionality via a subsequent <font face="Courier
+        New, Courier, monospace">thread_create()</font> call.<br>
+    </p>
+    <h2>Scheduling</h2>
+    <p></p>
+    <p>You should define a <i>ready</i> <i>queue</i> for a scheduler
+      that simply operates in FIFO order. That is, each time an idle
+      thread becomes busy, it is<br>
+      added to the FIFO queue in the order of calls to <font face="Courier New, Courier, monospace">thread_create()</font>.
+      Any thread that later becomes idle is not put back in the ready
+      queue. <br>
+    </p>
+    <h3>First step</h3>
+    <p></p>
+    <p>You should start by implementing threads that run to completion
+      in a non-preemptive manner and are <i>stackless</i>. That is,
+      they have no stack for local variables, arguments, or return
+      addresses for function calls. They call a simple function that
+      performs some task and then return to the idle state. To tackle
+      this, you should look for information on programming
+      ``protothreads'' or <i>coroutines</i>. Sample code is available
+      on the course webpage but you are free to search the Internet for
+      additional sources of information. Make sure, however, that any
+      help you find is properly cited.<br>
+    </p>
+    <h3>Second step</h3>
+    <p></p>
+    <p>If you complete the first step, you should try to add support for
+      threads with their own <i>stacks</i>, so they can operate on
+      local variables and/or call other functions. Here, you need to
+      create a region of memory to act as a stack for each thread, and
+      then you need to set the stack pointer to reference the stack when
+      setting up the execution context for the next thread to run.<br>
+    </p>
+    <h3>Third step</h3>
+    <p></p>
+    <p>If you get this far, congratulations! The next step is to add
+      support for <i>preemption</i>. You can do this cooperatively, by
+      implementing a <font face="Courier New, Courier, monospace">yield()</font>
+      function, that suspends the calling thread and picks the next busy
+      thread in the FIFO queue. Any yielded thread simply adds itself to
+      the back of the FIFO queue. <br>
+    </p>
+    <h3>Testing<br>
+    </h3>
+    <p>For testing purposes, assume the functions invoked by your thread
+      creation routing simply write a string to the screen, stating
+      which thread is running. For example, "<font face="Courier New,
+        Courier, monospace">Running thread &lt;1&gt;</font>" or
+      just&nbsp; "<font face="Courier New, Courier, monospace">&lt;1&gt;</font>"
+      will suffice for output from the execution of a thread with ID=1.
+      If desired, you can model the execution time of a thread by a
+      repeated loop that prints multiple text strings to the display.
+      Once a thread terminates, you should print a message such as "<font face="Courier New, Courier, monospace">Done &lt;xxx&gt;</font>"
+      where "<font face="Courier New, Courier, monospace">xxx</font>" is
+      replaced by the thread ID. <br>
+    </p>
+    <p>It is highly recommended that you develop your code using the
+      Puppy Linux environment and QEMU. Specifically, you can test the
+      execution of <font face="Courier New, Courier, monospace">fifos</font>
+      using <font face="Courier New, Courier, monospace">qemu-system-i386</font>
+      within Puppy Linux.<br>
+    </p>
+    <h2>Adding Timer-based Preemption<br>
+    </h2>
+    <p></p>
+    <p>If you get this far, well done! You should now attempt to
+      implement a second version of FIFOS, which supports a preemptive
+      thread scheduler using a <i>timeout</i> mechanism. This way, we
+      convert FIFO scheduling to a form of round-robin scheduling, where
+      every thread has a pre-defined timeslice (say, 100 milliseconds).
+      You need to program the 8253/4 programmable interval timer (PIT)
+      chip to do this, along with setting up an interrupt descriptor
+      table (IDT) for the 8259 programmable interrupt controller (PIC)
+      interrupt. The timer interrupt handler should, on timeout, switch
+      control to the thread at the head of the FIFO queue and place the
+      current thread to the back of the queue.<br>
+    </p>
+    <p>To differentiate from the FCFS implementation, call the second
+      version of FIFOS "<font face="Courier New, Courier, monospace">fifos-2</font>".
+
+      NB: If you get timer-based preemption working, you do not need to
+      show a solution for the first, second, or third steps described
+      above. You can simply submit <font face="Courier New, Courier,
+        monospace">fifos-2</font>.<br>
+    </p>
+    <h2>Resources</h2>
+    You should look at Volume 3 of the Intel Software Developer's Manual
+    for help on architectural specifics relating to systems programming.
+    A link to the manual is available from the main webpage for the
+    course. This will prove to be particularly useful for the timeout
+    preemption part of the assignment. As with the MEMOS assignment, <a href="http://www.osdev.org/">www.osdev.org</a> is a useful site for
+    information about PIT and PIC programming. <br>
+    <h3>Hints</h3>
+    <p>To help, we will provide some <a href="https://cs-web.bu.edu/fac/richwest/cs350_spring_2021/class_notes/memos-2.tar">helper files</a> from <font face="Courier New, Courier, monospace">memos-2</font>. To
+      extract, type at the shell prompt:<font face="Courier New,
+        Courier, monospace"> $tar xvf memos-2.tar</font> <br>
+    </p>
+    <p>You can then issue <font face="Courier New, Courier, monospace">make</font>
+      in the <font face="Courier New, Courier, monospace">memos-2</font>
+      directory, followed by:<br>
+      <font face="Courier New, Courier, monospace">$qemu-system-i386
+        -kernel memos-2 -m XXX</font> (where <font face="Courier New,
+        Courier, monospace">XXX</font> is some configured amount of
+      machine memory)<br>
+    </p>
+    <p>*** NOTE: Please do not share class code on public website or
+      repositories ***<br>
+    </p>
+    <p>You can assume that all the code written for this assignment
+      works in the kernel protection domain, is 32-bit (for both code
+      and data), and the memory model follow a basic "flat" memory
+      layout covering a 32-bit logical space up to 4GB (although, in
+      reality, you will not be able to access 4GB of physical memory if
+      you do not have that much RAM). You do *not* need to enable paging
+      to tackle this assignment. To set up a basic flat memory model you
+      should look at Volume 3 of the Intel Software Developer's Manual
+      (Chapter 3, Section 3.2.1). You will need to set up a basic global
+      descriptor table (GDT) defining a null segment of memory, followed
+      by two other segments: one for kernel code and another for kernel
+      data. The code segment is where your instructions are mapped,
+      while the data area is used for things such as stacks and
+      variables. <br>
+    </p>
+    <p><b>Context switching:</b> regardless of whether or not you
+      support timeout preemption, you still need to be able to yield,
+      and hence, switch from one thread to another. Doing this requires
+      saving the state of the thread to be suspended, while loading the
+      machine state of the next thread to run. The only exception to
+      this is when switching from a terminating thread, in which case
+      you can discard its state. <br>
+    </p>
+    <p>The IA32 architecture supports both hardware- and software-based
+      context (a.k.a. task) switching. For this assignment, you can use
+      either technique but you are strongly recommended to read Volume 3
+      of the Intel Software Developer's Manual for help. If you use
+      hardware task switching, you should read Chapter 7, otherwise you
+      do not need to use information in that chapter if you use a
+      software task switching technique. For software-based context
+      switching, you should look in Volume 2 of the Developer's Manual,
+      specifically at the <font face="Courier New, Courier, monospace">pusha</font>
+      and <font face="Courier New, Courier, monospace">popa</font>
+      instructions, as they automatically save and restore many of the
+      machine registers you need to manage for each thread.&nbsp; Be
+      aware that you should save <font face="Courier New, Courier,
+        monospace">ss, ds, es, fs</font> and <font face="Courier New,
+        Courier, monospace">gs</font> segment selectors (and set these
+      all to your kernel data segment selector value) on context
+      switching, just to be safe. Although in all likelihood you will
+      not change these selector values in your code once they are
+      initialized, it is good practice to be aware that you are managing
+      state correctly by saving and restoring at the appropriate times,
+      rather than assuming machine state is correct when context
+      switching.&nbsp; <br>
+    </p>
+    <p><b>The <font face="Courier New, Courier, monospace">flags</font>
+        register: </b>The flags register (specifically, <font face="Courier New, Courier, monospace">eflags</font> in in the
+      IA32 32-bit x86 architecture) stores some important flag values.
+      For the non-preemptive part of this assignment, you do not need to
+      set up an interrupt descriptor table (IDT) and you can assume
+      interrupts are disabled. However, for the preemption timeout
+      functionality, you need to enable interrupts. The <font face="Courier New, Courier, monospace">eflags</font> register
+      has an interrupt flag field (IF). If set, interrupts are enabled
+      and if cleared, interrupts are disabled. You can use <font face="Courier New, Courier, monospace">cli</font> and <font face="Courier New, Courier, monospace">sti</font> machine
+      instructions to enable and disable interrupts. Note, it is useful
+      on a uniprocessor to use <font face="Courier New, Courier,
+        monospace">cli/sti</font> pairs to manage interrupts when
+      updating code in critical sections, to avoid arbitrary interrupts
+      that could preempt and interfere with machine or program state
+      (leading to data races!). Moreover, for the preemption part
+      of&nbsp; the assignment, you need to enable and disable interrupts
+      at the correct times, to implement a critical section for updating
+      the state of the scheduler ready queue.<br>
+    </p>
+    <p><b>The GDT and IDT: </b>For the non-preemptive part of the
+      assignment, you only need to setup a basic GDT. To do this, you
+      should use the machine instruction <font face="Courier New,
+        Courier, monospace">lgdt</font>. For the IDT, you need to read
+      Chapter 6 on Interrupt and Exception Handling (in the Developer's
+      Manual, Vol 3). When enabling interrupts, you need to setup a
+      minimal interrupt descriptor (or vector) table, sufficient to
+      cover the interrupts you care about (notably a timer interrupt).
+      You will need to also setup the PIT and PIC accordingly. Details
+      how to do that are available on www.osdev.org. For each 8-byte IDT
+      entry (a.k.a. descriptor), you can assume they take the form of an
+      Interrupt Gate Descriptor. The layout of these descriptors, which
+      you have to create, as as described in the Developer's Manual for
+      IDT Gate Descriptors. &nbsp; <br>
+    </p>
+    <h2> </h2>
+    <h2><span style="font-weight: bold;"></span>Submission</h2>
+    <p>You should use <font face="Courier New, Courier, monospace">gradescope</font>
+      to submit all your files. You should include all source files,
+      including any Makefiles and build script, as well as a <font face="Courier New, Courier, monospace">README</font> file that
+      documents how to run and test your code. Make sure you reference
+      any sources of information, including code snippets on the
+      Internet that you use to tackle this assignment.<br>
+    </p>
+    <p>YOU CAN WORK IN GROUPS OF UP TO THREE PEOPLE BUT EACH GROUP
+      MEMBER MUST PROVIDE EVIDENCE OF THEIR CONTRIBUTIONS EITHER IN THE
+      SUBMITTED README FILE OR VIA A PRIVATE EMAIL TO THE INSTRUCTOR.<br>
+    </p>
+    <p>Happy Programming!<br>
+    </p>
+    <blockquote>&nbsp;</blockquote>
+    <br>
+    &nbsp; <br>
+    &nbsp;
+  
+
+</body><div id="edge-translate-notifier-container" class="edge-translate-notifier-center"></div></html>

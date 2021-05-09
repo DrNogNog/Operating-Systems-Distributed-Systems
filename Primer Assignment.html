@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<!-- saved from url=(0083)https://cs-web.bu.edu/fac/richwest/cs350_spring_2021/assignments/primer/primer.html -->
+<html><div id="translate-button" style="background-color: white; display: none; top: 488px; left: 483px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAEgWuABIFrgFpirNTAAAMIUlEQVRo3s1Ze5RV1Xn//b597mMuw/CYEREwRhCVCisian1Q3joQQREhljSKrctXKIlpiHHFB9qoXTYrmiwa2rAqqUgaRFEBQSAIUtKFKChFCM+gCwGFgjAMM3PvOWfvr3/s+2KcQYxD9bvr3Hvufp3v9732/r4DnDL1Yfm/B3+7/lt3NOrXTn3+V4im/NuSpzer0z4vR92+bF4+N417eOGTr2RVb1+l+75sXk6ViqYz4f5Vc362T/Wa51Rr/0O393zwcOrLZi44Beb14lterLz62ze9JhkMfPUVaApgpxoYG7fTryIAAigwpoMfXHlm7+FDVxytQ989f1SkJNZUxrCySpzZvPALPl4J8AsJ4aQauOGXf7j0rMuvXvzhRnSJGiPNSKwWInGWqO4iqIrmSsszF+fNTgCMKmNwGQEDYES+7aMW5r5OYAuAegAPfCY4ttZx3+IPaw8neiza/0eXEImdVaWzSqdw6WRSzh/gtj91VeLCL6iCL0wlAFUdiWNHFQC+O++TW7/ev9OzixcAmURoARh1gMJBFS5IJKVdFffpwdW3c/9603vAGLQ/9wLNNmQZNRyFCQQE6ZyDDesJCpwCxqQYhQ1IVnbEwd3bUHfgPXY9/xJ1cYqII4RN9UhlKtFU18Tqc/pH7c7umE2mgA5GNWVs5t2tjVunT+iw+6QaqJ00fdrgqZMfWbqCSCK2RpyhAlAtU6eBYcCv/wVQmQJydQBNyXFYtjoJqPq+wgUHmCQgBrChH0MAFN9HAaIIUAcwBFIGqG6vePdPR2bMvbN68ujp+/nqlG4KNPOBm2ZvntG3z0X3rFoLaDa2psIZOEChJVcjQDpajbB9E2ER5BmPQYrnJs8oy+Bo2XdzuTV3YxIALQgHdUSkBj2qiT0fH2sEgLCprjjWAzjjEv7q4Ibfd6rD8KeegaYjp5kKNaoC4gTxk0o4eKmSzgUISxL2dlbiW0tQCOTXag6A5XdKev79A6kU0FinmaSR48caLADQ5YqrCzCeaPgA6369/OUDIZAWMEgJLcWvCPhod8Kt7xLmP+J/WTAGBeFYGOUnaeFePJtg/gMICCFghCKEvycohAiUhFII2NjmAEBdXK6BFxWNwOy7a3/18Z5fbr5gyPcW7Xsf7ZuOGSeBkogLMiygJgGlkEQAEpC85Qi9uRUsrYC6XO4Keu2VaUoVcK4gIUcfLIqap3X5yU5DnKDJZj6w/Invr+69PXvZoB/ct6xxL87Z+wE1mTBqxFJVy0BQTRCw5mzYVBo2QNH8aUBVgiyzGfWaY8E9VCEADAEVBzqFWgu6CHHDcQkOfwyNnFVQBXnQ3qycF0qZzzTfyLhz/o+3O1ReXPvD766sqUH/d98RFUdNBwUQQLqdkWQQ7944+9GRYf3eUG23hOoFqkF3QZDOP8/CxxEIoA5xJLCNIA454FBA1gVkHUVDVcT0ylOb6TW241mXjV3ELKrDMNZyd1GnrtyMWwKgAMyf5k8++u/rPrhy9KS7Fl4ztte1K9ZQG3Oi6VRMOCKZIlKJbLhx/mM70cZkdmc4dvhYZ0SYy8GBEJRCgwKALYPV0lHAApBw789yLz1+Xu3m362ZPX4kGFSI1DcFzlJos4qgQ6V0nfhass04F89L35seOqu6AhJmHcBShFUtid6Vyb2VswwccKEAwAtPDZr01rzNT948BKioEGkIjaMhXD1Ueo5sO9E7OADIdD2LQT0UqnCqeZ/zMGzkrf/Ms3sUvUBaX3GbAxIEgN8+0u/+pS99NPX6sUAqgEQWSBoEmfBw2wHIE2HV0gdaeIenZ1QRW4+kqqamdQ30HDnFlP5FRaQLHu32841LV44feR2Qi4CmCDkyaPN8oEONSVpFJ6WBiBR2SBpxsM55TZQ99VMA7rp3anLxrrrfdJ2yp/cJggEw+57h8/9n8Zxhg64DenTG+R07pm1bA3j/v98+mk3iUCoDiDFOqV4NqrCxtQBgy7j+FIAfjzyn6YpeVbeM6FfzBjDiU4e9eVNvWbV32dJrxtVi38XnJdu8KrFt5uVHNy1fMLKiG44l0mJoAgchnAJx5Me4svEt+sCUeXjj8hEV3YY//PLr+abS2QzAjLtHrZj20Jt9Nh/AkULbRQ+EreYWn5c2zRy7aeuSuYO790MuGRiRhHE0QGQlUWDmpAAYwaz8L2DgpMqhg3+wckUBBFkC8dpjVzatnSLFY+GWx5Nt6Q9c9/TEjbuWzBvS8zLYdNKIoUKdMQDgFCePQh0rYGxO8foSF/3lHUOHX/vDDUsAQPVETbQVDbtDywJH8RzLFT+9+c0tC+Zcc96lQJMN8EnW+1z5TtwigMBBq9IKzVmueA06aPIlo2p/tGkR0Cvwi/dpUxCjv4XO09/UZ3re9nZ3lMxVAWDV47es2rH0d9d+s5YYfGX3LgDQPv0ZAFSREKfIpJSJOIslr0KH3ttv9DfGTPxXP2Jrm4bP93blPmmo01uvmnjphg5/M78jTjRzrJj27d8f275x2t+N6RADwMyhPLkJUSEKAla1Mg1G9Tnu2AX06Desb1syXqDf3JO2uw/qH85owJkD/3rchv737Ti3+Zjbruj/j0/s1580b28ZAP1BWFUJB22fgdYfBj7cw7bfevNUn6VpCIHgI9ezX23vt0c8uqR/OUsAsP2bEp0SACklsj51UmoQAGDU5g5coFjJ400OYTa0B7e56j6jRq27dd6GofnuVk22ZQBShK35lIpIACY4ftoAJGsgsc8U6eJQ31vjEr2vumTljTPX33yyeS0f5ghR5zMwnwIV6h6HTlst1CXgHATqoAJQNXLLn3e4csiAudc9+tK9pZHBCUJsGYAArsSqUtXndmHDafOBI/vC40wiXxCAVgQQF0Vu8TLgukk3Pj3ue794zI+MVcr2otZqowQAEqpKEQPWfQTtPmDCIFu/Z0Z8vAG5hrQmqrqpMULSQGDgnF/cGAOoVdI6dbGN4iaqRoxtEwwBCmGjHAiDoF0Fwvjs2NbF/cIgUJCEAk5V21dQ6upDN3tRUr4z9fsPBJKumfeLu+92ZT7Rok3/w0J9Z/8B1/9oQ2ytwggIGxvNnCGs6gJoPhaQXqH5AkpZ3cJfIi2omIAt48ACCEPg6F6HOIzUSLGSRweqCFDXJGrTgUwYDbw1+93FL07/5zE4MldbBTBlqa4/+KEOqGuInFUI1dcjrALOiioUzmcaWgBSWKhYVIGyLJ6V7LEI1/9QfTlGaCl0oI8bDn478vIwYF0WqokE+30DOHAEGw68v//Ot6d2f6dFHwgTXkrO+nqN07zUVEHGFFomxDEQlUBUAqqYEy4nhkojjoaOBv4SOAa0NIz9LywFMYgYUAdVqFMqitVGzWtMtUOGzDVpvGMrMHkcBvS9tNuNrfoAFQwtkYsCFzuFeNMo5KZFYZcyv2LiWpR3oZqqILXYTxYrS8wXfQQqBI1YMSyd9AuPJAAR4ZF6xF/rhmDMQOC5f9nyyPM/n/ZTAGwRwJAuOG+LAz5pkMBab8tBXt1hCBgBTMIbiSuU3srrNwTo4CvNZYFXNV9hzE/RAMgFQM4CR/YGCBtjDQLHokDytbswhK3KmOD6EcSchxfetXrWDTP9ipXSIoD/XLT/n/YfqutxcOf7UcJEcaJdRkwiUwENTEV1Z6dKZA8fg/NFf1AIdf6kq+qIOFYGApAK56AkTEKUJOLI7+bJdEoDUc3u3Yo4JHqNvmlsu07J7rl6X07M1yapEGutMeMmMlo1d/WE1bNuWOC5/CsBDulp21k/L139wOEFvS7rfP3Hu0MHqiippDgJAnPRFWg8tPbVwc/+/Zj1fvTtBJ759PuBcrrrJaUm/OlHDVToX2K4OB8uU8CssmPtbSu1zP6BZ4dRb1vm26SZeaUzwNYPYrwx+y1g2dUKADXnd+pkGwClU6jAKTVTFZiuF+LgjiWvDFn00I1b81CLzAOnIbv6c+k7L+ua3GE38Eh9FFtF0LlLColqbNu1aFbt+hm378GJb0+L9FnviVul8S8oX5zQ8ivS8S+UtNHamOaUOwKTjQkVmHN7ppAzWLv8iftH/O+aJxvzQ770d9InpTEzde3fzlOdukZ1wnO6uGbgEwUhfGWs5KT0o1d056+3qF5157rZZc3mz17w/5PunaUyZ4vuHPaTLc9/Xub/D61PrC9fCdQYAAAAAElFTkSuQmCC"></div><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="GENERATOR" content="Mozilla/4.77 [en] (X11; U; Linux
+      2.4.9-6custom i686) [Netscape]">
+    <meta name="Author" content="Rich West">
+    <title>CS350</title>
+  </head>
+  <body vlink="#55188a" text="#000000" link="#0000ef" bgcolor="#ffffff" alink="#ff0000" style=""><div id="shifty-spritz" style="display: none;" tabindex="1"><div id="words-shifty"><div id="countdown-shifty" style="font-size: 25px; height: 50px; line-height: 50px; font-weight: bold; font-family: &quot;droid sans&quot;;"></div><div id="left-shifty" style="font-size: 25px; height: 50px; line-height: 50px; font-weight: bold; font-family: &quot;droid sans&quot;;"></div><div id="center-shifty" style="font-size: 25px; height: 50px; line-height: 50px; font-weight: bold; font-family: &quot;droid sans&quot;; color: rgb(250, 61, 61);"></div><div id="right-shifty" style="font-size: 25px; height: 50px; line-height: 50px; font-weight: bold; font-family: &quot;droid sans&quot;;"></div><span id="clear-shifty"></span></div><div id="controls-shifty"><i id="pause-play-shifty" class="fa fa-pause left-shifty"></i><i id="close-shifty" class="fa fa-times right-shifty"></i><div id="progress-bar-shifty"><div id="progress-shifty"></div><div id="seek-shifty"></div></div></div></div>
+    <h1> CS350 OS Primer</h1>
+    <p>By Rich West, Boston University.<br>
+    </p>
+    <p>NB: This assignment can be tackled in groups of up to TWO people.
+      If you work in a group of two you will each be asked to show
+      evidence that you understand your code. If one person understands
+      the code but the other doesn't then only the person who is able to
+      explain the code will get the grade.&nbsp; Irrespective of working
+      alone or with a partner, you will be asked to demo your solution
+      at a time to be decided.<br>
+    </p>
+    <h2> Part 1: Invoking Kernel Services using Loadable Modules in
+      Linux<br>
+    </h2>
+    The aim of this part of the primer assignment is for you to learn
+    how to write a simple kernel loadable module. In the past (i.e.,
+    when Linux 2.4.x kernels were still the latest and greatest) this
+    primer included hints on how to write your own system calls. As of
+    the 2.6.x Linux kernels, steps were taken to make it difficult for
+    developers to write their own system calls. This is primarily due to
+    the fact that the system call table (identified by the
+    "sys_call_table" symbol) is no longer exported for use in modules.
+    Notwithstanding, practice at writing a simple kernel module, along
+    with code to activate functionality in that module is useful when
+    developing kernel projects (and a module can be used as the basis
+    for a device driver you may one day write!). <br>
+    <br>
+    A helpful reference for this work is "Linux Device Drivers", by A.
+    Rubini O'Reilly.<br>
+    <br>
+    <h2>Before You Start</h2>
+    You will need to setup a virtual disk for use with a PC emulator,
+    such as VirtualBox, QEMU, BOCHS, VMplayer or similar. Further
+    information will be provided on this.<br>
+    <ul>
+      <li>
+        <h2>Writing a Simple Module</h2>
+      </li>
+    </ul>
+    The first part of this assignment requires you to implement a simple
+    kernel loadable module that simply prints two strings <u>S1</u> and
+    <u>S2</u> to the console.&nbsp; <u>S1</u>&nbsp; is&nbsp; a string
+    such as "Loading Module..." that is output to the console when your
+    module is first loaded into the kernel, while <u>S2</u> is is a
+    string such as "Unloading module..." that is output when the module
+    is removed from the kernel.
+    <p>Up to Linux version 2.4.x it was acceptable to use init_module()
+      and cleanup_module() as the names of the initialization and
+      cleanup functions in your module. The init_module() function was
+      invoked when a module was first loaded into the kernel address
+      space using the `insmod` (or `modprobe`) command. Likewise,
+      cleanup_module() was called when a module was removed from the
+      kernel using `rmmod modulename`.<br>
+    </p>
+    <p>As of Linux 2.6.x, two new functions were introduced:
+      module_init() and module_exit() in place of the now deprecated
+      init_/cleanup_module() functions. Both of these functions take a
+      single argument, which is the name of the initialization and
+      cleanup functions that you write in your module.<br>
+    </p>
+    Further information can be found in "The Linux Kernel Module
+    Programming Guide":<br>
+    <ul>
+      <li><a href="http://tldp.org/LDP/lkmpg/2.6/html/index.html">http://tldp.org/LDP/lkmpg/2.6/html/index.html</a></li>
+      <li>NOTE: the above link is to the old kernel version 2.6.x but
+        this is adequate for educational purposes.<br>
+      </li>
+    </ul>
+    Other useful links include:<br>
+    <ul>
+      <li>The somewhat old Kernel <a href="http://www.cs.csubak.edu/~steve/cs216/Kernel-Build-HOWTO.html">Build
+
+
+
+
+          HOWTO</a>, <br>
+      </li>
+      <li>The Linux Cross Reference (Now at: <a href="http://lxr.free-electrons.com/">http://lxr.free-electrons.com/</a>),
+which
+
+
+
+
+
+
+        is useful for searching around the kernel source tree for
+        various kernel versions<br>
+      </li>
+    </ul>
+    To begin, you should try to write the following (simple) kernel
+    module in a file called "test_module.c":<br>
+    <br>
+    <span style="font-weight: bold; font-family: monospace;">/*</span><br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">&nbsp;*&nbsp;&nbsp;
+test
+
+
+
+
+
+
+      module.</span><br style="font-weight: bold; font-family:
+      monospace;">
+    <span style="font-weight: bold; font-family: monospace;">&nbsp;*/</span><br style="font-weight: bold; font-family: monospace;">
+    <br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">#include
+      &lt;linux/module.h&gt;</span><br style="font-weight: bold;
+      font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">#include
+      &lt;linux/config.h&gt;</span><br style="font-weight: bold;
+      font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">#include
+      &lt;linux/init.h&gt;</span><br style="font-weight: bold;
+      font-family: monospace;">
+    <br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">MODULE_LICENSE("GPL");</span><br style="font-weight: bold; font-family: monospace;">
+    <br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">static int
+      __init initialization_routine(void) {</span><br style="font-weight: bold; font-family: monospace;">
+    <br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">&nbsp;
+      printk ("Hello, world!\n");</span><br style="font-weight: bold;
+      font-family: monospace;">
+    <br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">&nbsp;
+      return 0;</span><br style="font-weight: bold; font-family:
+      monospace;">
+    <span style="font-weight: bold; font-family: monospace;">}</span><br style="font-weight: bold; font-family: monospace;">
+    <br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">static void
+      __exit cleanup_routine(void) {</span><br style="font-weight: bold;
+      font-family: monospace;">
+    <br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">&nbsp;
+      printk ("Unloading module!\n");</span><br style="font-weight:
+      bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">}</span><br style="font-weight: bold; font-family: monospace;">
+    <br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">module_init(initialization_routine);</span><br style="font-weight: bold; font-family: monospace;">
+    <span style="font-weight: bold; font-family: monospace;">module_exit(cleanup_routine);</span><br>
+    <br>
+    This file can be placed in its own directory along with a simple
+    Makefile (assuming the kernel is 2.6.x), having just the following
+    line:<br>
+    <br>
+    <span style="font-weight: bold;"><span style="font-family:
+        monospace;">obj-m += test_module.o</span></span><span style="font-weight: bold; font-family: courier
+      new,courier,monospace;"><br>
+      <br>
+    </span><span style="font-family: helvetica,arial,sans-serif;"></span><span style="font-family: monospace;">Before you can use your module you
+      will need to build the source code against the kernel source tree.
+      If the kernel source tree is in the directory such as
+      /usr/src/linux-`uname -r`, you can issue the following make
+      command to generate a module called "test_module.ko":<br>
+      <br>
+    </span><b style="font-family: monospace;" class="COMMAND">make -C
+      /usr/src/linux-`uname -r` SUBDIRS=$PWD </b><b style="font-family:
+      monospace;" class="COMMAND">modules<br>
+      <br>
+      NOTE: If the above line does not work, try:<br>
+      <br>
+      make -C /lib/modules/`uname -r`/build M=$PWD modules<br>
+      <br>
+    </b><span class="COMMAND">Once you have successfully created your
+      kernel module, you can load it using a command such as `insmod
+      test_module.ko`. If everything works, you'll be able to use the
+      command `dmesg` to see any kernel messages printed by your module
+      functions. To remove youe module, issue the shell command `rmmod
+      test_module` (without the .ko ending).<br>
+      <br>
+      After completing Part 1, you should try the examples found at:<br>
+    </span>
+    <ul>
+      <li><a href="http://tldp.org/LDP/lkmpg/2.6/html/index.html">http://tldp.org/LDP/lkmpg/2.6/html/index.html</a>
+        (See "List of Examples" at the bottom of the page)</li>
+    </ul>
+    You should also practice configuring and building a new kernel from
+    source, using the information provided in the pointers above.<br>
+    <br>
+    <span class="COMMAND" style="font-family: monospace;"></span><span style="font-weight: bold; font-family: courier
+      new,courier,monospace;"></span>To make sure you know how to tackle
+    this basic primer assignment before we write more complex kernel
+    code, you should demonstrate your code to the TF in one of the lab
+    sessions.<br>
+    <br>
+    Note that, in general, you can use any symbols (i.e., functions,
+    global variables etc) that are exportable to modules. In older
+    kernel versions, these symbols were visible via kernel/xxxx_ksyms.c
+    (where xxxx refers to a specific architecture such as "i386"). It
+    used to be the case that you could try&nbsp; something like `cat
+    /proc/ksyms | more` to see the available symbols. Nowadays, you can
+    see all symbol names via /proc/kallsyms. Additionally, you can use
+    the printk() kernel function to print your messages to the console.
+    If they do not appear on the console, this may be due to an
+    insufficiently high enough priority for the message to appear on the
+    console (or logging of kernel messages has been disabled entirely).
+    You may need to edit /etc/syslog.conf and insert a line such as:
+    <p>kern.*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+      /dev/console </p>
+    <p>to enable console logging of kernel messages. Your mileage may
+      vary depending on the logging configuration of your system. On
+      more recent system versions it seems that syslog.conf has been
+      replaced with syslog-ng.conf, or with a file whose full pathname
+      is /etc/sysconfig/syslog. You should check arounf the /etc
+      directory to find the appropriate syslog configuration file. Note
+      that when you reboot your (virtual) machine after editing this
+      file, you may see many additional text messages, which should not
+      be cause for alarm.This all, however, requires you to have
+      permissions to do this. At the very least, the system
+      administrators should grant you guest privileges to load and
+      unload kernel modules using `insmod` and `rmmod`. Please let the
+      instructor know if you wish to have further privileges to edit
+      system configuration files and build new kernels, if those
+      privileges are not enabled by default.<br>
+    </p>
+    <p>If you do not modify /etc/syslog.conf, you can always look at the
+      messages in /var/log/messages or simply issue the command `dmesg`,
+      as stated earlier. Alternatively, you might want to insert&nbsp;
+      afunction such as <a href="https://cs-web.bu.edu/fac/richwest/cs350_spring_2021/assignments/primer/ioctl_module.c">my_printk()</a> (in
+      the provided file) in your module and invoke it instead of using
+      printk(). </p>
+    Again, the exact implementation of my_printk will vary with kernel
+    versions. Tread carefully and use the Linux cross reference as a
+    guide.<br>
+    <ul>
+      <li>
+        <h2>Invoking Kernel Services</h2>
+      </li>
+    </ul>
+    In this part of the primer assignment, you will want to communicate
+    with your module from user-space, so that it may perform some
+    privileged service on your behalf. Here, we will use ioctls to
+    communicate with the kernel. You should use the template code
+    (ioctl_module.c found via this <a href="https://cs-web.bu.edu/fac/richwest/cs350_spring_2021/assignments/primer/ioctl_module.c">link</a>,
+    along with the corresponding <a href="https://cs-web.bu.edu/fac/richwest/cs350_spring_2021/assignments/primer/Makefile">Makefile</a> that
+    you place in a directory of your choosing) to build a module that
+    sets up the ioctl wrapper code for use by a user-level program. You
+    then need to write a user-level routine that makes an ioctl call to
+    your kernel module to print to the active tty&nbsp; (terminal
+    device) a string that you pass as an argument to the ioctl routine.
+    The format of the ioctl call from your user-level program will be:<br>
+    <br>
+    <span style="font-weight: bold;">ioctl (fd, IOCTL_CMD,
+      &amp;ioctl_args);</span><br>
+    <br>
+    Here, `fd' is a file descriptor used for a (pseudo) device file that
+    you create in /proc, IOCTL_CMD is the numeric ioctl command to
+    perform in the body of your kernel module and the final argument is
+    a pointer to a structure containing the arguments that your ioctl
+    code will use. A simple ioctl_test.c file can be found <a href="https://cs-web.bu.edu/fac/richwest/cs350_spring_2021/assignments/primer/ioctl_test.c">here</a>, for the ioctl_module.c file
+    mentioned above.<br>
+    <br>
+    NOTE: To print to the active tty you will need to use the
+    my_printk() code described above in your kernel module, along with
+    the string argument passed from your user-level program. <br>
+    <br>
+    <ul>
+      <li>
+        <h2>Simple Keyboard Driver<br>
+        </h2>
+      </li>
+    </ul>
+    In this part of the assignment, you are required to write yet
+    another ioctl call called <span style="font-family: courier
+      new,courier,monospace;">my_getchar()</span>, that simply polls the
+    PC keyboard for characters. When a key has been pressed (indicated
+    by bit 0 of the keyboard controller status register accessed via
+    port 0x64, using port-based I/O) you want to return from a
+    busy-waiting loop with the appropriate character. Here is some
+    sample code to help:<br>
+    <br>
+    char my_getchar ( void ) {<br>
+    <br>
+    &nbsp; char c;<br>
+    <br>
+    &nbsp; static char scancode[128] =
+"\0\e1234567890-=\177\tqwertyuiop[]\n\0asdfghjkl;'`\0\\zxcvbnm,./\0*\0
+\0\0\0\0\0\0\0\0\0\0\0\0\000789-456+1230.\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";<br>
+    <br>
+    <br>
+    &nbsp; /* Poll keyboard status register at port 0x64 checking bit 0
+    to see if<br>
+    &nbsp;&nbsp; * output buffer is full. We continue to poll if the msb
+    of port 0x60<br>
+    &nbsp;&nbsp; * (data port) is set, as this indicates out-of-band
+    data or a release<br>
+    &nbsp;&nbsp; * keystroke<br>
+    &nbsp;&nbsp; */<br>
+    &nbsp; while( !(inb( 0x64 ) &amp; 0x1) || ( ( c = inb( 0x60 ) )
+    &amp; 0x80 ) );<br>
+    <br>
+    &nbsp; return scancode[ (int)c ];<br>
+    <br>
+    }<br>
+    <br>
+    In the above code, inb() and outb() are calls to inline assembly
+    routines to read a byte from a port address, and to write a byte to
+    a port address, respectively, for a given device. These are written
+    as follows and must be executed in your kernel module:<br>
+    <br>
+    static inline unsigned char inb( unsigned short usPort ) {<br>
+    <br>
+    &nbsp;&nbsp;&nbsp; unsigned char uch;<br>
+    &nbsp;&nbsp;&nbsp; <br>
+    &nbsp;&nbsp;&nbsp; asm volatile( "inb %1,%0" : "=a" (uch) : "Nd"
+    (usPort) );<br>
+    &nbsp;&nbsp;&nbsp; return uch;<br>
+    }<br>
+    <br>
+    static inline void outb( unsigned char uch, unsigned short usPort )
+    {<br>
+    <br>
+    &nbsp;&nbsp;&nbsp; asm volatile( "outb %0,%1" : : "a" (uch), "Nd"
+    (usPort) );<br>
+    }<br>
+    <br>
+    Further information about the syntax of the above inline assembly
+    can be found on the main class web-page.<br>
+    Similarly, further information about how the PC keyboard works can
+    be found via on <a href="http://wiki.osdev.org/PS2_Keyboard">osdev.org</a>.
+    Additional details about keyboard scancodes can be found <a href="http://www.win.tue.nl/~aeb/linux/kbd/scancodes-1.html">here</a>.<br>
+    <br>
+    NOTE: For the keyboard driver, you should write a simple user-level
+    program that calls my_getchar() and prints the character read from
+    the keyboard to the screen/shell. You should then extend this
+    user-level program to repeatedly call my_getchar() to read strings
+    of characters.&nbsp; <br>
+    <br>
+    <b>Adding Support for Keyboard Modifiers and Interrupt-Driven
+      Keyboard Handling</b><br>
+    <br>
+    While a basic version of my_getchar() is provided, it does not erase
+    characters on the screen when backspace is pressed, and nor does it
+    support keyboard modifiers such as the shift key followed by another
+    keystroke (e.g., to enable capitalization).&nbsp; You should attempt
+    to add this support. Additionally, you need to disable IRQ1 in the
+    Linux kernel to prevent the Linux keyboard interrupt handler from
+    responding to keystrokes. Finally, you should attempt to implement a
+    keyboard driver solution that uses interrupts rather than polling.<br>
+    <br>
+    <h2>Submission Guidelines</h2>
+    <p>Please submit all your source files via gradescope, along with a
+      README file to explain how to build and run your code. You should
+      include all provided files that you used or modified. You should
+      also provide sources of information that you used on the web or
+      elsewhere to tackle this assignment. Information about how to
+      submit to gradescope will be provided.<br>
+    </p>
+    <h2>Part 2: Bootloaders and Virtual Disks</h2>
+    One of the most useful ways to develop an OS is to setup a virtual
+    disk image with your OS binary and bootable file system partition. A
+    virtual disk is nothing more than a file that represents a physical
+    storage device.&nbsp; There are many ways to setup a virtual disk
+    but one of the easiest starting points is to use 'dd' or 'qemu-img'.
+    We'll assume you are going to use 'dd' because it is the cleanest
+    way to copy raw bytes from an input file to a given target. Stay
+    tuned for Part 2 in a follow up primer...<br>
+    <br>
+    <span style="text-decoration: underline;"><br>
+      <br>
+    </span><br>
+    <br>
+    <br>
+    &nbsp;
+    <blockquote>&nbsp;</blockquote>
+    <br>
+    &nbsp; <br>
+    &nbsp;
+  
+
+</body><div id="edge-translate-notifier-container" class="edge-translate-notifier-center"></div></html>

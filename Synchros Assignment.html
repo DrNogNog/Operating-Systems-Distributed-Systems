@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<!-- saved from url=(0084)https://cs-web.bu.edu/fac/richwest/cs350_spring_2021/assignments/fifos/synchros.html -->
+<html><div id="translate-button" style="background-color: white;"><img src="data:image/png;base64,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"></div><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="GENERATOR" content="Mozilla/4.77 [en] (X11; U; Linux
+      2.4.9-6custom i686) [Netscape]">
+    <meta name="Author" content="Rich West">
+    <title></title>
+  </head>
+  <body bgcolor="#ffffff" alink="#ff0000" vlink="#55188a" text="#000000" link="#0000ef">
+    <h1>From FIFOS to SYNCHROS<br>
+    </h1>
+    By Rich West, Boston University. <br>
+    <h2>Overview<br>
+    </h2>
+    <p>In this assignment you are required to extend FIFOS with support
+      for synchronized access to shared resources used by the threads
+      created in FIFOS. Your resultant system will be identified as<font face="Courier New, Courier, monospace"> </font>SYNCHROS, for
+      synchronization-aware OS. To tackle this assignment you need to
+      have a complete FIFOS implementation supporting threads with
+      stacks, and timer-based preemption.&nbsp; </p>
+    <h2>Details<br>
+    </h2>
+    <p>You are required to implement support for inter-thread
+      communication via a shared circular buffer. Your buffer will have
+      a configurable number of slots, <b><font size="+1"><tt>S</tt></font></b>,
+      which you define as a constant. Minimally, you must test the use
+      of the buffer with at least two producing threads, and at least
+      two consuming threads. Diagrammatically, your system will look at
+      follows:<br>
+    </p>
+    <img moz-do-not-send="true" src="./Synchros Assignment_files/synchros.png" alt="Synchros" width="549" height="280"><br>
+    <br>
+    <h2>Testing</h2>
+    <p>To test SYNCHROS each producing thread must generate 100 items.
+      Each produced item is a tuple that contains three values: <b><font size="+1"><tt>producer thread ID</tt></font></b>, <b><font size="+1"><tt>message #</tt></font></b>, <b><font size="+1"><tt>message</tt></font></b>.
+      The <b><font size="+1"><tt>producer thread ID</tt></font></b> is
+      a fixed but unique integer for each thread in your system. The <b><font size="+1"><tt>message #</tt></font></b> is a value from 0 to
+      99 and increases for each new item produced by a given thread. The
+      <b><font size="+1"><tt>message</tt></font></b> is a string of the
+      form <font size="+1"><tt>"<b>Msg M for XXX</b>"</tt></font>,
+      where <b><font size="+1"><tt>M</tt></font></b> is the next
+      message number (starting from 0) in sequence from the producer
+      specifically for the consumer thread with ID<font size="+1"> </font><b><font size="+1"><tt>XXX</tt></font></b>. You can assume a producer
+      sends an equal number of its 100 messages to each consumer, in
+      some arbitrarily interleaved order. For example, if there are two
+      consumers, then each producer will send 50 of its messages to one
+      consumer and another 50 messages to the other
+      consumer.&nbsp;&nbsp; <font size="+1"><tt> </tt></font></p>
+    <p>Each producing thread must lock the buffer <i>exclusively</i> to
+      place one item in the next free slot at position <b><font size="+1"><tt>in</tt></font></b>. Afterward, a global <b><font size="+1"><tt>counter</tt></font></b> for the number of items
+      in the buffer is incremented, <b><font size="+1"><tt>in</tt></font></b>
+      is adjusted accordingly (modulo <b><font size="+1"><tt>S</tt></font></b>),
+
+
+
+
+      and the lock is then released. This process repeats for each
+      producing thread until it has added all 100 messages to the
+      buffer, after which it terminates.&nbsp; <br>
+    </p>
+    <p>Each consuming thread, having a fixed but unique system-wide
+      integer ID will repeatedly lock the buffer and read the next
+      message from the current <b><font size="+1"><tt>out</tt></font></b>
+      position. You can assume <b><font size="+1"><tt>in</tt></font></b>
+      and <b><font size="+1"><tt>out</tt></font></b> are initialized to
+      0 when the system first starts. A consumer will only remove the
+      next item from the buffer if the message value <b><font size="+1"><tt>XXX</tt></font></b>
+      matches its thread ID. This indicates the message was sent from a
+      specific producer to that consumer. If a consumer removes the item
+      it will print to the terminal the following string: "<b><font size="+1"><tt>consumer thread ID: producer thread ID: message
+            #: message</tt></font></b>". If all is working correctly,
+      the message should be exactly what was sent from the producer, and
+      the thread ID <b><font size="+1"><tt>XXX</tt></font></b> in the
+      message should match the consumer thread ID. Likewise, the message
+      should be the next message in sequence from the corresponding
+      producer. This can be verified by seeing that the value <font size="+1"><tt><b>M</b></tt></font> is 1 greater than in the
+      previous message from the same producer. The <font size="+1"><tt><b>message
+
+
+
+
+            #</b></tt></font> may not necessarily be 1 greater than the
+      previous <font size="+1"><b><tt>message #</tt></b></font>,
+      depending on the order in which messages are sent from a producer.
+      Note that if a consumer does not see a match on <font size="+1"><b><tt>XXX</tt></b></font>
+      with its own thread ID, it will leave the message in the buffer
+      and release its lock so that another consumer can check the item.
+      Only if an item is removed will the <font size="+1"><tt><b>out</b></tt></font>
+      value be incremented modulo <font size="+1"><b><tt>S</tt></b></font>.<br>
+    </p>
+    You set your timeslice interval to cause interleaved execution of
+    all threads. A reasonable value will be sufficient for at least one
+    <i>attempt</i> to produce or consume an item by the corresponding
+    thread, but not much more. By <i>attempt</i>, a producer will not
+    add an item to a full buffer, and a consumer will not remove an item
+    from an empty buffer. Similarly, a consumer will not remove an item
+    with the wrong message ID <font size="+1"><b><tt>XXX</tt></b></font>.
+    While we will not require you to fine tune your timeslice interval,
+    you should not make it too large. Smaller values are therefore
+    better for timeslices, albeit with more frequent context-switching.<br>
+    <h4>Dealing with full and empty buffer conditions</h4>
+    <p>A producer cannot add to a full buffer (<b><font size="+1"><tt>counter
+
+
+
+
+            = S</tt></font></b>) otherwise overflow will occur.
+      Likewise, a consumer cannot remove from an empty buffer (<font size="+1"><b><tt>counter = 0</tt></b></font>). In these
+      scenarios, it makes sense to yield the corresponding thread.
+      However, if the thread is added to the back of your FIFO-order
+      scheduler queue, it may be scheduled again only to find the buffer
+      empty (in the case of a consumer), or full (in the case of a
+      producer). Rather than needlessly scheduling threads when they
+      cannot effectively do any work, you should consider implementing
+      your own condition variables and condition queues for two states:
+      <font size="+1"><b><tt>BUFFER_FULL</tt></b></font> and <font size="+1"><b><tt>BUFFER_EMPTY</tt></b></font>. Only when the
+      corresponding condition is not true should any threads waiting on
+      those conditions be removed from the condition queue and added
+      back into the FIFO-ordered scheduler queue. Note, however, you
+      must still check for a full or empty buffer when a thread is
+      scheduled for execution, as some other thread may have changed the
+      state of the buffer since the selected thread last executed.<br>
+    </p>
+    <h4>Implementing your synchronization primitives</h4>
+    As your FIFOS implementation supports timer-based preemption you can
+    implement your locking mechanisms by enabling and disabling
+    interrupts. This way, the timer interrupt handler will not be able
+    to preempt your thread execution and call the scheduler to run
+    another thread while the current thread is in a critical section
+    updating state variables related to the shared buffer. However, this
+    approach does not deal with the situation where a thread has a lock
+    but it cannot do any useful work (because the buffer is full or
+    empty).&nbsp; Your solution should still work, but you'll end up
+    having a thread busy wait until it is preempted.<br>
+    <br>
+    Bonus points will be given for solutions that add the following
+    functions:<br>
+    <br>
+    <font size="+1"><tt>void mutex_lock (lock_t *lock);</tt><tt><br>
+      </tt><tt>void mutex_unlock (lock_t *lock);</tt><tt><br>
+      </tt><tt>void condition_wait(condition_t *cond, lock_t *lock);</tt><tt><br>
+      </tt><tt>void condition_signal(condition_t *cond);</tt></font><br>
+    <br>
+    The mutex functions allow the caller to atomically acquire and
+    release a lock, whose address is passed as an argument. You are free
+    to define your <font size="+1"><tt>lock_t</tt></font> variable as
+    you wish. The <font size="+1"><tt>condition_wait()</tt></font>
+    function atomically adds the calling thread to the condition queue
+    associated with <font size="+1"><tt>cond</tt></font>, and unlocks <font size="+1"><tt>lock</tt></font>. Likewise, the <font size="+1"><tt>condition_signal()</tt></font>
+    function atomically removes a thread from the head of the condition
+    queue associated with <font size="+1"><tt>cond</tt></font> and
+    places the thread in the back of the scheduler queue. <br>
+    <h2> </h2>
+    <h2><span style="font-weight: bold;"></span>Submission</h2>
+    <p>You should use <font face="Courier New, Courier, monospace">gradescope</font>
+      to submit all your files. You should include all source files,
+      including any Makefiles and build script, as well as a <font face="Courier New, Courier, monospace">README</font> file that
+      documents how to run and test your code. Make sure you reference
+      any sources of information, including code snippets on the
+      Internet that you use to tackle this assignment.<br>
+    </p>
+    <p>YOU CAN WORK IN GROUPS OF UP TO THREE PEOPLE BUT EACH GROUP
+      MEMBER MUST PROVIDE EVIDENCE OF THEIR CONTRIBUTIONS EITHER IN THE
+      SUBMITTED README FILE OR VIA A PRIVATE EMAIL TO THE INSTRUCTOR.<br>
+    </p>
+    <p>Happy Programming!<br>
+    </p>
+    <blockquote>&nbsp;</blockquote>
+    <br>
+    &nbsp; <br>
+    &nbsp;
+  
+
+</body><div id="edge-translate-notifier-container" class="edge-translate-notifier-center"></div></html>
