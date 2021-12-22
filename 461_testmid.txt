@@ -1,0 +1,21 @@
+
+Answer (Graph, Edges)
+	
+	//Run BFS on graph
+	Layers = BFS(SourceNode, Graph)
+	//Make both sets
+	U = set{}
+	W = set{}
+	//Add Nodes to sets Alternating between sets for every layer 
+	for x in len(Layers):
+		//Add nodes in first layer to set U
+		if x==0:
+			U.add(Layers[x])
+		//Add nodes in odd layers to set W
+		elif x % 2 == 1:
+			W.add(Layers[x])
+		//Add nodes in even layers to set U
+		else:
+			U.add(Layers[x])
+	#return both sets of nodes
+	return (U,W)
